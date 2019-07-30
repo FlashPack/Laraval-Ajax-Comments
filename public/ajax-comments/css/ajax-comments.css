@@ -1,0 +1,99 @@
+
+/** Ajax Comments
+ *************************************************** **/
+#comments {
+	margin-top:60px;
+}
+#comments .comment {
+
+}
+#comments a.replyBtn {
+	float:right;
+	font-size:11px;
+	text-transform:uppercase;
+}
+#comments span.user-avatar {
+	background:#eee;
+	width:64px; height:64px;
+	float:left;
+	margin-right:10px;
+}
+a:hover{
+	text-decoration:none;
+}
+ul.comment {
+	margin-bottom:30px;
+}
+li.comment {
+	position:relative;
+	margin-bottom:25px;
+	font-size:13px;
+}
+li.comment p {
+	margin:0; padding:0;
+}
+li.comment img.avatar {
+	position:absolute;
+	right:0; top:0;
+	display:inline-block;
+}
+li.comment.comment-reply img.avatar {
+	right:6px; top:6px;
+}
+li.comment .comment-body {
+	position:relative;
+	padding-right:60px;
+}
+li.comment.comment-reply {
+	margin-right:15px;
+	background-color:#fafafa;
+	padding:6px;
+	margin-bottom:6px;
+}
+li.comment a.comment-author {
+	margin-bottom:6px;
+	display:block;
+}
+li.comment a.comment-author span {
+	font-size:15px;
+}
+li.comment-relpy {
+	margin-top:-15px;
+	margin-bottom:20px;
+}
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+.green-border{
+	border:2px solid #28a745!important
+}
+.comment-rating{
+	margin-left:5px;
+	margin-top:5px;
+	font-size:12px;
+	text-align:center;
+}
+.up-vote-btn,.down-vote-btn{
+	width:20px;
+	height:16px;
+	border:0;
+}
+.up-vote-btn:hover,.down-vote-btn:hover{
+	cursor:pointer;
+}
+.up-vote-btn{
+		background:url('/ajax-comments/images/rating-arrows.png');
+}
+.down-vote-btn{
+		background:url('/ajax-comments/images/rating-arrows.png');
+		background-position:-20px ;
+}
+.up-vote-btn.active{
+	background-position:40px;
+}
+.down-vote-btn.active{
+	background-position:20px;
+}
